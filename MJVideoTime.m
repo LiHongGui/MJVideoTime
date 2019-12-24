@@ -3,10 +3,11 @@
 //  HBuilder
 //
 //  Created by 李宏贵 on 2019/6/26.
-//  Copyright © 2019 DCloud. All rights reserved.
+//  Copyright © 2019 MichaelLi. All rights reserved.
 //
 
 #import "MJVideoTime.h"
+#import <AVFAudio/AVAudioTypes.h>
 #import <AVFoundation/AVFoundation.h>
 @implementation MJVideoTime
 + (long)timeAudioAndVideoFilePath:(NSString *)filePath time:(MJVideoTimeSuccessBlock)callBackBlock;
